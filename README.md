@@ -1,3 +1,3 @@
 # Projects
 
-Book Management
+College Intern Management
