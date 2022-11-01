@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 const jwt = require('jsonwebtoken');
-const authorModel = require('../models/authorModel')
 const blogModel = require('../models/blogModel');
 
 let token
