@@ -8,19 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonalgill/Project-Books-Managemnet.git"
+    "url": "git+https://github.com/sonalgill/Projects.git "
   },
-  "author": "",
+  "author": "Sonal Gill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sonalgill/Project-Books-Managemnet/issues"
+    "url": "https://github.com/sonalgill/Projects/issues"
   },
-  "homepage": "https://github.com/sonalgill/Project-Books-Managemnet#readme",
+  "homepage": "https://github.com/sonalgill/Projects#readme",
   "dependencies": {
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.1",
-    "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.20"
   }
 }

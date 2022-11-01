@@ -2,14 +2,12 @@ const express = require("express");
 const route = require("./route/route.js");
 const app = express();
 const mongoose = require("mongoose");
-const multer = require('multer')
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }))
 
 mongoose
   .connect(
-    "mongodb+srv://sonal-plutonium:5dJokPsnG43EGYHE@cluster0.koc4qx2.mongodb.net/Group27-DB",
+    "mongodb+srv://sonal-plutonium:5dJokPsnG43EGYHE@cluster0.koc4qx2.mongodb.net/Book-Management",
     {
       useNewUrlParser: true,
     }
