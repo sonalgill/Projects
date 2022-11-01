@@ -7,7 +7,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://sonal-plutonium:5dJokPsnG43EGYHE@cluster0.koc4qx2.mongodb.net/Group11-DB",
+    "mongodb+srv://sonal-plutonium:5dJokPsnG43EGYHE@cluster0.koc4qx2.mongodb.net/URL-Shortner",
     {
       useNewUrlParser: true,
     }
