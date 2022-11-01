@@ -179,11 +179,12 @@ const deleteByBlogID = async (req, res) => {
           if (check) {
                if (check.isDeleted == false) {
                     let changeStatus = await blogModel.findOneAndUpdate({ _id: BlogId }, { $set: { isDeleted: true, deletedAt: time } }, { new: true, upsert: true })
-                    return res.status(200).send({ status: true, msg: "Data Deleted successfully", changeStatus })
+                    return res.status(200).send({ status: true, msg: "Blog Deleted successfully" })
                } else {
-                    return res.status(404).send({ status: false, msg: "Data had been deleted." })
+                    return res.status(404).send({ status: false, msg: "No such Blog Found" })
                }
           }
+          return res.status(404).send({ status: false, msg: "No such Blog Found" })
      } catch (error) {
           return res.status(500).send({ status: false, error: error.message })
      }
