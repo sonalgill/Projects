@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikramsingh7568/mini-blog-project "
+    "url": "git+https://github.com/sonalgill/Projects.git "
   },
   "author": "Sonal Gill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vikramsingh7568/mini-blog-project/issues"
+    "url": "https://github.com/sonalgill/Projects/issues"
   },
-  "homepage": "https://github.com/vikramsingh7568/mini-blog-project#readme",
+  "homepage": "https://github.com/sonalgill/Projects#readme",
   "dependencies": {
     "express": "^4.18.1",
     "jsonwebtoken": "^8.5.1",
